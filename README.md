@@ -1,2 +1,2 @@
 # AppleTie Site
- Repositório para construção colaborativa do site da banda
+ Repositório para construção colaborativa do site da banda AppleTie
