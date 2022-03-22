@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+.bg {
+  background-image: url("../Assets/appletiesite-bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 95%; /* Full width */
+}
+
+.headermenuitem {
+  font-family: "raleway";
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.titulobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  font-family: "raleway";
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.titulolinha1 {
+  font-family: "bangers";
+  font-size: 100px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.titulolinha2 {
+  font-family: "bangers";
+  font-size: 70px;
+  color: #9dbb39;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.titulolinha3 {
+  font-family: "bangers";
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.headermenuitem:hover {
+  color: #9dbb39;
+}
+
+.headermenu {
+  justify-content: space-between;
+}
+
+.body {
+  margin-top: 125px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.videoscapa {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.videocapa1 {
+  margin: 35px;
+}
+
+.videocapa2 {
+  margin: 35px;
+}
+
+.text1 {
+  font-family: "raleway";
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+#aptlogo {
+  height: 50px;
+}
+
+#facebook,
+#instagram,
+#youtube {
+  width: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: #b81af0;
+  padding: 5px;
+  border-radius: 30px;
+  border-width: 2px;
+}
+
+#facebook:hover {
+  background-color: #9dbb39;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+#instagram:hover {
+  background-color: #9dbb39;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+#youtube:hover {
+  background-color: #9dbb39;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.footer {
+  display: flex;
+  background-color: #0ff;
+}
