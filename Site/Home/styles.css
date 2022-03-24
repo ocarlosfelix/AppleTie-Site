@@ -1,22 +1,26 @@
 @charset "UTF-8";
 
 .bg {
-  background-image: url("../Assets/appletiesite-bg2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  width: 100%;
+  margin: 0;
 }
 
 .header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("../Assets/appletiesite-bg2.jpg");
   display: flex;
   justify-content: space-between;
-  padding: 15px;
   align-items: center;
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 95%; /* Full width */
+  width: 100%; /* Full width */
+}
+
+#aptlogo {
+  height: 50px;
+  margin-left: 20px;
 }
 
 .headermenuitem {
@@ -29,53 +33,7 @@
   text-decoration: none;
 }
 
-.titulobox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.titulo {
-  font-family: "raleway";
-  font-size: 50px;
-  color: #fff;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-right: 15px;
-  text-decoration: none;
-  justify-content: center;
-}
-
-.titulolinha1 {
-  font-family: "bangers";
-  font-size: 100px;
-  color: #fff;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-right: 15px;
-  text-decoration: none;
-  justify-content: center;
-}
-
-.titulolinha2 {
-  font-family: "bangers";
-  font-size: 70px;
-  color: #9dbb39;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-right: 15px;
-  text-decoration: none;
-  justify-content: center;
-}
-
-.titulolinha3 {
-  font-family: "bangers";
-  font-size: 50px;
-  color: #fff;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-right: 15px;
-  text-decoration: none;
+.headermenu {
   justify-content: center;
 }
 
@@ -83,44 +41,8 @@
   color: #9dbb39;
 }
 
-.headermenu {
-  justify-content: space-between;
-}
-
-.body {
-  margin-top: 125px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.videoscapa {
-  display: flex;
-  margin-top: 50px;
-  align-items: center;
-}
-
-.videocapa1 {
-  margin: 35px;
-}
-
-.videocapa2 {
-  margin: 35px;
-}
-
-.text1 {
-  font-family: "raleway";
-  font-size: 20px;
-  color: #fff;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-right: 15px;
-  text-decoration: none;
-  justify-content: center;
-}
-
-#aptlogo {
-  height: 50px;
+.socialmenu {
+  margin-right: 20px;
 }
 
 #facebook,
@@ -151,6 +73,118 @@
   background-color: #9dbb39;
   padding: 5px;
   border-radius: 30px;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: url("../Assets/appletiesite-bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 2000px;
+}
+
+.bannerview {
+}
+.banner {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url("../Assets/appletiesite-bg.jpg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.titulobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  font-family: "raleway";
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.titulolinha1 {
+  font-family: "bangers";
+  font-size: 80px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.titulolinha2 {
+  font-family: "bangers";
+  font-size: 55px;
+  color: #154803;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.titulolinha3 {
+  font-family: "bangers";
+  font-size: 38px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.bannerconteudoimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bannerconteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.videocapa1 {
+}
+
+.videocapa2 {
+}
+
+.bannertext {
+  display: flex;
+  font-family: "raleway";
+  margin-top: 15px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
