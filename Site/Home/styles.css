@@ -92,7 +92,41 @@
 
 .bannerview {
 }
-.banner {
+.banner1 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url("../Assets/appletiesite-bg.jpg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner2 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url("../Assets/bg-show.jpg");
+  background-position: top;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner3 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url("../Assets/appletiesite-bg.jpg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner4 {
   padding-top: 40px;
   padding-bottom: 30px;
   background-image: url("../Assets/appletiesite-bg.jpg");
